@@ -1,0 +1,98 @@
+.grid-container{
+    display: grid;
+    background-color: maroon;
+    width: 100%;
+    font-family: sans-serif;
+  }
+  #form-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    
+    margin-top: 5em;
+    
+  }
+  .form-field{
+    display: block;
+    margin-top: 35px;
+    /*padding: 1em;*/
+  }
+  label,input,button{
+    /*display: block;*/
+    margin: 0.5em;
+  }
+  label{
+    border-top:0;
+    outline: 0;
+    font-size: 18px;
+    
+  }
+  fieldset{
+    padding: 1em;
+    background-color: white;
+    border-color: black;
+    border-radius: 10px;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: center;
+    
+  }
+  h2{
+    margin-left: 10px;
+    font-size: 32px;
+    margin-bottom: 0;
+   
+  }
+  input{
+    border: none;
+    outline: none;
+   /* background-color: skyblue;*/
+    border-bottom: 3px solid whitesmoke;
+    font-size: 16px;
+    margin-left: 70px;
+    
+  }
+  input:hover{
+    border-bottom: 2px solid blue;
+    /*background-color: pink;*/
+  }
+  #socials{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+  }
+  button{
+    width: 100px;
+    border: none;
+    background-color: maroon;
+    border-radius: 15px;
+    color: whitesmoke;
+    padding: 5px;
+    margin-left: 200px;
+    font-size: 18px;
+  }
+  a{
+    text-decoration: none;
+  }
+  #password{
+    display: flex;  
+  }
+  #no-account{
+    color: red;
+  }
+  #alt-signin{
+    /*padding-left: 1em;*/
+    margin-left: 200px;
+  }
+  #no-account> a{
+    color: red;
+  }
+  /*span{
+    padding-top: 0;
+    display: inline;
+  }*/
+  /* #firstInput{
+    border: 1px solid black;
+    
+  } */
+  
