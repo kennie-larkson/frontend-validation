@@ -8,7 +8,7 @@ const validateForm = ()=>{
    const userPass = document.querySelector('.pass');
    const passValue = userPass.value;
   
-   if(nameValue === ""){
+   if(nameValue === "" ){
         const errDiv = document.querySelector('#firstInput');
         errDiv.setAttribute('style', 'padding: 0px; border: 1px solid red');
     
@@ -30,5 +30,7 @@ errDiv2.append(nameErr2);
 }
   
 }
-
 btn.addEventListener('click', validateForm);
+
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
